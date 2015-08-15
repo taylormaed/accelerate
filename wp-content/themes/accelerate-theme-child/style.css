@@ -16,13 +16,38 @@ Theme Name:   Accelerate Theme Child
     background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
 }
 
+ul.homepage-featured-work {
+    margin:0;
+    padding:0;
+    list-style:none;
+    }
+
+li {display:inline-block;
+    float:left;
+    padding: 10px;
+}
+
+h4 {text-transform: uppercase;
+                    text-align: center;
+                        }
+
+
+
 #masthead {
     background: none repeat scroll 0 0 #45ac9d;
 }
 
+
+
 .button {
     background: none repeat scroll 0 0 #45ac9d;
 }
+
+#primary-navigation ul li {
+    text-transform: uppercase;
+    margin-left: 35px;
+    display: inline-block;
+} 
 
 .blog-post {
 	width: 50%;
@@ -49,3 +74,23 @@ Theme Name:   Accelerate Theme Child
 	text-transform: uppercase;
 }
 
+/* Case Studies */
+
+aside.case-study-sidebar {
+    float:left;
+    margin: 0 40px 0 0;
+    width:314px;}
+
+div.case-study-images {
+    float: left;
+    width: 606px;}
+
+div.case-study-images img {
+    display: block;
+    margin-bottom: 50px;
+    border 1px solid #dddddd;}
+    
+/* Work Landing Page */
+
+h6 {
+    color:#D7D7D7;}
