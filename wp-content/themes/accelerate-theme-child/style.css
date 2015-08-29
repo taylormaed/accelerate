@@ -22,9 +22,8 @@ ul.homepage-featured-work {
     list-style:none;
     }
 
-li {display:inline-block;
-    float:left;
-    padding: 10px;
+
+
 }
 
 h4 {text-transform: uppercase;
@@ -37,17 +36,15 @@ h4 {text-transform: uppercase;
     background: none repeat scroll 0 0 #45ac9d;
 }
 
-
-
 .button {
     background: none repeat scroll 0 0 #45ac9d;
 }
 
 #primary-navigation ul li {
     text-transform: uppercase;
-    margin-left: 35px;
+    margin-left: 20px;
     display: inline-block;
-} 
+}
 
 .blog-post {
 	width: 50%;
@@ -76,21 +73,60 @@ h4 {text-transform: uppercase;
 
 /* Case Studies */
 
+
+
+
+h5.case-study-sidebar {
+  font-family: OpenSans;
+  font-size: 14px;
+  color:#878787;
+  font-weight: 400;
+}
+
+
+
+ p#case-study-content   {
+    font-family: OpenSans;
+    font-size: 17px;
+                      }
+
+
+
 aside.case-study-sidebar {
     float:left;
     margin: 0 40px 0 0;
     width:314px;}
 
-div.case-study-images {
-    float: left;
-    width: 606px;}
+h2.case-study-sidebar{
+  font-family: OpenSans;
+  font-size: 24px;
+  font-weight: 400px;
+}
+
+h4.case-study-sidebar{
+  font-family: OpenSans;
+  font-weight:400;
+  font-size: 16px;}
 
 div.case-study-images img {
     display: block;
     margin-bottom: 50px;
     border 1px solid #dddddd;}
-    
+
 /* Work Landing Page */
 
 h6 {
     color:#D7D7D7;}
+
+
+/*Services*/
+
+div.service-images-left  {
+  width: 300px;
+  float:left;
+}
+
+div.service-images-right {
+  width: 300px;
+  float:right;
+}

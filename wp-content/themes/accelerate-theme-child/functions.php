@@ -24,6 +24,12 @@
  * @subpackage Accelerate Marketing
  * @since Accelerate Marketing 1.0
  */
+ 
+function enqueue_custom_google_fonts() {
+   wp_enqueue_style ('google-fonts', 'http://fonts.googleapis.com/css?family=Montserrat400,700|Open+Sans400,700');}
+   add_action( 'wp_enqueue_scripts', 'enqueue_custom_google_fonts' );
+
+    
 
 function create_custom_post_types() {
     register_post_type( 'case_studies',
@@ -37,5 +43,18 @@ function create_custom_post_types() {
             'rewrite' => array( 'slug' => 'case-studies' ),
         )
     );
-}
+
+    register_post_type( 'services',
+        array(
+            'labels' => array(
+                'name' => __( 'Services' ),
+                'singular_name' => __( 'Service' )
+            ),
+            'public' => true,
+            'has_archive' => true,
+            'rewrite' => array( 'slug' => 'services' ),
+        )
+    );
+  }
+
 add_action( 'init', 'create_custom_post_types' );
