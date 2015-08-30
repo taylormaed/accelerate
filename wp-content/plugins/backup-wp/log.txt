@@ -102,3 +102,5 @@
 [SUCCEED Backup]
 [2015-08-30 22:29:42] [END Backing up]
 ########PROCESS ENDED########
+[2015-08-30 23:17:19] [NOTICE] [Undefined offset: 0] [ File /Users/mtaylorelliott/Library/Sites/accelerate/wp-content/plugins/backup-wp/classes/Sns_Ftp.php , Line 58 ] [ URL /accelerate/wp-admin/admin.php?page=backup-wp%2Fsns-backup-admin.php ] 
+[2015-08-30 23:17:19] [NOTICE] [Undefined offset: 0] [ File /Users/mtaylorelliott/Library/Sites/accelerate/wp-content/plugins/backup-wp/classes/Sns_Ftp.php , Line 58 ] [ URL /accelerate/wp-admin/admin.php?page=backup-wp%2Fsns-backup-admin.php ] 
