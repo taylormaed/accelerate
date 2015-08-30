@@ -122,11 +122,11 @@ h6 {
 /*Services*/
 
 div.service-images-left  {
-  width: 300px;
+  width: 250px;
   float:left;
 }
 
 div.service-images-right {
-  width: 300px;
+  width: 250px;
   float:right;
 }
