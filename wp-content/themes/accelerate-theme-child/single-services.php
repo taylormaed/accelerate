@@ -16,7 +16,7 @@ get_header(); ?>
 			<?php while ( have_posts() ) : the_post();
 									$image_right = get_field('image_right');
 									$image_left = get_field('image_left');
-									$size = 'medium'?>;
+									$size = 'medium'?>
 
 
 	<div class="service">
