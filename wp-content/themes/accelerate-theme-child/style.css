@@ -121,12 +121,22 @@ h6 {
 
 /*Services*/
 
-div.service-images-left  {
+.service-image-left  {
   width: 250px;
   float:left;
 }
 
-div.service-images-right {
+.service-image-right {
   width: 250px;
   float:right;
+}
+
+.titleclass{
+  display: inline;
+}
+
+.clearfix: after{
+  display: block;
+  clear: both;
+  content: "";
 }
