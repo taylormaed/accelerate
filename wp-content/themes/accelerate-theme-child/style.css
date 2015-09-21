@@ -122,12 +122,12 @@ h6 {
 /*Services*/
 
 .service-image-left  {
-  width: 250px;
+  width: 310px;
   float:left;
 }
 
 .service-image-right {
-  width: 250px;
+  width: 310px;
   float:right;
 }
 
@@ -139,4 +139,9 @@ h6 {
   display: block;
   clear: both;
   content: "";
+}
+
+.archive-services{
+  background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+
 }
