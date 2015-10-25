@@ -108,7 +108,7 @@ h4.case-study-sidebar{
   font-weight:400;
   font-size: 16px;}
 
-div.case-study-images img {
+.case-study-images img {
     display: block;
     margin-bottom: 50px;
     border 1px solid #dddddd;}
@@ -141,7 +141,7 @@ h6 {
   content: "";
 }
 
-.archive-services{
+.services{
   background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
 
 }
