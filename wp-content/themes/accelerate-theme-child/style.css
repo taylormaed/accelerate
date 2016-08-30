@@ -73,9 +73,6 @@ h4 {text-transform: uppercase;
 
 /* Case Studies */
 
-
-
-
 h5.case-study-sidebar {
   font-family: OpenSans;
   font-size: 14px;
@@ -89,8 +86,6 @@ h5.case-study-sidebar {
     font-family: OpenSans;
     font-size: 17px;
                       }
-
-
 
 aside.case-study-sidebar {
     float:left;
@@ -119,7 +114,7 @@ h6 {
     color:#D7D7D7;}
 
 
-/*Services*/
+/* Services */
 
 .service-image-left  {
   width: 310px;
@@ -141,7 +136,14 @@ h6 {
   content: "";
 }
 
-.services{
+.service{
   background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+
+}
+
+/* About Page */
+
+.about-page {
+background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);  
 
 }

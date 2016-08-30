@@ -1,0 +1,132 @@
+/*
+Theme Name:   Accelerate Theme Child
+ Theme URI:    http://example.com/accelerate-theme-child/
+ Description:  Accelerate Child Theme - Accelerate
+ Author:       Taylor Elliott
+ Author URI:   http://taylormaed.org
+ Template:     accelerate-theme
+ Version:      1.0.0
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  accelerate-theme-child
+*/
+
+@import url("../accelerate-theme/style.css");
+
+.home-page {
+    background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+}
+
+ul.homepage-featured-work {
+    margin:0;
+    padding:0;
+    list-style:none;
+    }
+
+
+
+}
+
+h4 {text-transform: uppercase;
+                    text-align: center;
+                        }
+
+
+
+#masthead {
+    background: none repeat scroll 0 0 #45ac9d;
+}
+
+.button {
+    background: none repeat scroll 0 0 #45ac9d;
+}
+
+#primary-navigation ul li {
+    text-transform: uppercase;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.blog-post {
+	width: 50%;
+}
+
+.blog-post h4 {
+	font-size: 16px;
+	font-family: 'Montserrat';
+	color: #a6a6a6;
+	text-transform: uppercase;
+}
+
+.blog-post h2 {
+	font-size: 24px;
+	font-family: 'Montserrat';
+	font-weight: bold;
+}
+
+.blog-post .read-more-link {
+	font-size: 24px;
+	font-family: 'Montserrat';
+	font-weight: bold;
+	color: #45ac9d;
+	text-transform: uppercase;
+}
+
+/* Case Studies */
+
+
+
+
+h5.case-study-sidebar {
+  font-family: OpenSans;
+  font-size: 14px;
+  color:#878787;
+  font-weight: 400;
+}
+
+
+
+ p#case-study-content   {
+    font-family: OpenSans;
+    font-size: 17px;
+                      }
+
+
+
+aside.case-study-sidebar {
+    float:left;
+    margin: 0 40px 0 0;
+    width:314px;}
+
+h2.case-study-sidebar{
+  font-family: OpenSans;
+  font-size: 24px;
+  font-weight: 400px;
+}
+
+h4.case-study-sidebar{
+  font-family: OpenSans;
+  font-weight:400;
+  font-size: 16px;}
+
+div.case-study-images img {
+    display: block;
+    margin-bottom: 50px;
+    border 1px solid #dddddd;}
+
+/* Work Landing Page */
+
+h6 {
+    color:#D7D7D7;}
+
+
+/*Services*/
+
+div.service-images-left  {
+  width: 250px;
+  float:left;
+}
+
+div.service-images-right {
+  width: 250px;
+  float:right;
+}

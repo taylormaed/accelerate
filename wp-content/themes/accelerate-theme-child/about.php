@@ -1,6 +1,6 @@
 <?php
 /**
- * The template for displaying all pages
+ * The template for displaying the About page.
  *
  *
  *
@@ -11,25 +11,16 @@
 
 get_header(); ?>
 
-<div id="main" class="site-main">
-		<section class="about-page">
-			<div class="site-content">
-			<div class="about-page-hero">
-			<?php while ( have_posts() ) : the_post(); ?>
-
-              <strong> <h2> <?php the_title(); ?></h2></strong>
-
+<section class="home-page">
+	<div class="site-content">
+		<?php while ( have_posts() ) : the_post(); ?>
+			<div class='homepage-hero'>
 				<?php the_content(); ?>
-			<?php endwhile; // end of the loop. ?>
-
-		</div><!-- #content -->
-	</div><!-- #primary -->
-
-<?php get_footer(); ?>
-
-
-
-
+				<a class="button" href="<?php echo home_url(); ?>/blog">View Our Work</a>
+			</div>
+		<?php endwhile; // end of the loop. ?>
+	</div><!-- .container -->
+</section><!-- .home-page -->
 
 
 <p><a href="http://localhost:8888/accelerate/">Accelerate</a>
