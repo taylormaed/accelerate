@@ -148,8 +148,17 @@ background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(
 height: 400px;
 }
 
- h3 {
+ h1 {
   text-align: center;
   font-family: "OpenSans";
-  font-size: 24px;
+  font-size: 36px;
+  color: white;
+}
+
+span {
+  color: #45ac9d;
+}
+
+.homepage-hero span {
+  
 }
