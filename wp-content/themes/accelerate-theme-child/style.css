@@ -174,10 +174,10 @@ h1 {
 
 
 
-a:visited {
+.homepage-hero a:visited {
   color: #45ac9d;
 }
 
-a:hover {
+.homepage-hero a:hover {
   color: #45ac9d;
 }
