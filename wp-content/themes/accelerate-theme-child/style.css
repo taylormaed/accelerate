@@ -170,21 +170,14 @@ h1 {
   color: white;
 }
 
-a {
-  color: #45ac9d;
-}
 
-a:link {
-  color: #45ac9d;
-} 
+
+
 
 a:visited {
   color: #45ac9d;
 }
 
 a:hover {
-  color: #45ac9d;
-}
-a:active {
   color: #45ac9d;
 }
