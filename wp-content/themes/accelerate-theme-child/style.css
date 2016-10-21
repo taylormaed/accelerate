@@ -161,7 +161,7 @@ h6 {
   padding: 5% 25%;
 }
 
-/*===================================*/
+
 
 h1 {
   text-align: center;
@@ -180,4 +180,16 @@ h1 {
 
 .homepage-hero span a:hover {
   color: #45ac9d;
+}
+
+.site-content h1 {
+  text-align: center;
+  font-family: "OpenSans";
+  font-size: 17px;
+}
+
+.site-content-services {
+  text-align: center;
+  font-family: "OpenSans";
+  font-size: 17px;
 }
