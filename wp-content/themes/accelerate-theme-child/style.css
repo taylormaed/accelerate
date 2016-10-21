@@ -182,14 +182,8 @@ h1 {
   color: #45ac9d;
 }
 
-.site-content h1 {
-  text-align: center;
+.header--about {
+  text-align: center;
+  padding: 0 10%;
   font-family: "OpenSans";
-  font-size: 17px;
-}
-
-.site-content-services {
-  text-align: center;
-  font-family: "OpenSans";
-  font-size: 17px;
 }

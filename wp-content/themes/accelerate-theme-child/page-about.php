@@ -22,8 +22,10 @@ get_header(); ?>
 </section>  
 
 <div class="site-content">
-<strong><h2>OUR SERVICES</strong></h2>
-<p class="site-content-services">We take pride in our clients and the content we create for them. Here's a brief overview of our offered services.</p>
+<header class="header--about">
+<h2><strong>OUR SERVICES</strong></h2>
+<p>We take pride in our clients and the content we create for them. Here's a brief overview of our offered services.</p>
+</header>
 
   <?php query_posts('posts_per_page=4&post_type=services'); ?>
   <?php while ( have_posts() ) : the_post();
