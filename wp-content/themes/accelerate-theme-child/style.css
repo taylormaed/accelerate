@@ -16,19 +16,25 @@ Theme Name:   Accelerate Theme Child
     background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
 }
 
+/*THIS GIVES YOU A LITTLE SPACE BETWEEN THE HERO AND THE CONTENT*/
+
+.site-content {
+  margin-top: 50px;
+}
+
+/*=================================*/
+
 ul.homepage-featured-work {
     margin:0;
     padding:0;
     list-style:none;
     }
-
-
-
 }
 
-h4 {text-transform: uppercase;
-                    text-align: center;
-                        }
+h4 {
+    text-transform: uppercase;
+    text-align: center;
+}
 
 
 
@@ -126,17 +132,17 @@ h6 {
   float:right;
 }
 
-.titleclass{
+.titleclass {
   display: inline;
 }
 
-.clearfix: after{
+.clearfix: after {
   display: block;
   clear: both;
   content: "";
 }
 
-.service{
+.service {
   background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
 
 }
@@ -144,11 +150,20 @@ h6 {
 /* About Page */
 
 .homepage-hero {
-background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);  
-height: 400px;
+  background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);  
+  height: 400px;
 }
 
- h1 {
+/*I MADE A CHANGE HERE, REMOVING THE H1 TOP MARGIN SO YOU DON'T GET THAT SPACE BETWEEN NAV AND HERO*/
+
+.homepage-hero h1 {
+  margin-top: 0;
+  padding: 5% 25%;
+}
+
+/*===================================*/
+
+h1 {
   text-align: center;
   font-family: "OpenSans";
   font-size: 36px;
@@ -161,4 +176,4 @@ span {
 
 .homepage-hero span {
   
-}
+}  
