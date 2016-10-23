@@ -21,11 +21,13 @@ get_header(); ?>
     
 </section>  
 
+<section class="header--about">
+<h2 style="text-align: center;"><strong>OUR SERVICES</strong></h2>
+<p style="text-align: center;">We take pride in our clients and the content we create for them.</p>
+<p style="text-align: center;">Here's a brief overview of our offered services.</p>
+</section>
+
 <div class="site-content">
-<header class="header--about">
-<h2><strong>OUR SERVICES</strong></h2>
-<p>We take pride in our clients and the content we create for them. Here's a brief overview of our offered services.</p>
-</header>
 
   <?php query_posts('posts_per_page=4&post_type=services'); ?>
   <?php while ( have_posts() ) : the_post();
