@@ -22,9 +22,9 @@ get_header(); ?>
 </section>  
 
 <section class="header--about">
-<h2 style="text-align: center;"><strong>OUR SERVICES</strong></h2>
-<p style="text-align: center;">We take pride in our clients and the content we create for them.</p>
-<p style="text-align: center;">Here's a brief overview of our offered services.</p>
+<h3><strong>OUR SERVICES</strong></h3>
+<p>We take pride in our clients and the content we create for them.</p>
+<p>Here's a brief overview of our offered services.</p>
 </section>
 
 <div class="site-content">
