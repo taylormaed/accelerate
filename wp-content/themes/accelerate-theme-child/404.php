@@ -14,10 +14,11 @@ get_header(); ?>
 
 	<div id="primary" class="site-content">
 		<div id="content" role="main">
-
+		<div class="404-main">
 			<h2>You appear to be lost!</h2>
 			
 			<h4><a href="<?php echo home_url(); ?>">Let's take you back home</a>. :)</h4>
+			</div>
 
 		</div><!-- #content -->
 	</div><!-- #primary -->
