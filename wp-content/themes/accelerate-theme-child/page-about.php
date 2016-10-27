@@ -14,7 +14,7 @@ get_header(); ?>
 <section class="about-page">
   
     <?php while ( have_posts() ) : the_post(); ?>
-      <div class='homepage-hero'>
+      <div class="about-page-top">
         <?php the_content(); ?>
       </div>
     <?php endwhile; // end of the loop. ?>

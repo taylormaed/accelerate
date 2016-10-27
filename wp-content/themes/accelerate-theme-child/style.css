@@ -149,14 +149,14 @@ h6 {
 
 /* About Page */
 
-.homepage-hero {
+.about-page-top {
   background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);  
   height: 400px;
 }
 
 /*I MADE A CHANGE HERE, REMOVING THE H1 TOP MARGIN SO YOU DON'T GET THAT SPACE BETWEEN NAV AND HERO*/
 
-.homepage-hero h1 {
+.about-page-top h1 {
   margin-top: 0;
   padding: 5% 25%;
   text-align: center;
@@ -171,11 +171,11 @@ h6 {
 
 
 
-.homepage-hero span a:visited {
+.about-page-top span a:visited {
   color: #45ac9d;
 }
 
-.homepage-hero span a:hover {
+.about-page-top span a:hover {
   color: #45ac9d;
 }
 
