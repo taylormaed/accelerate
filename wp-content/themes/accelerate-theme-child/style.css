@@ -187,6 +187,6 @@ h6 {
 
 /* 404 Page */
 
-.lost_page {
+.page_not_found_wrap {
   background: url("img/404-cat.png") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
 }
