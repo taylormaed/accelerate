@@ -1,4 +1,4 @@
-?php
+<?php
 /**
  * This is the template for displaying the 404 page.
  *
@@ -9,6 +9,7 @@
  * Author URI:   http://taylormaed.org
  * Template:     accelerate-theme
  */
+
 get_header(); ?>
 
 	<div id="primary" class="site-content">
