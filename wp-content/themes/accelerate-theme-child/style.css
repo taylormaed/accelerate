@@ -188,6 +188,15 @@ h6 {
 /* 404 Page */
 
 .page_not_found_wrap {
+  margin-top: 0;
+  padding: 5% 25%;
   background: url("img/404-cat.png") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
   height: 770px;
+  text-align: left;
+  font-family: "OpenSans";
+  font-size: 36px;
+  color: white;
 }
+
+ 
+  
