@@ -187,7 +187,7 @@ h6 {
 
 /* 404 Page */
 
-.page_not_found {
+.page_not_found h1 {
   font-family: "OpenSans";
   color: white;
 }
