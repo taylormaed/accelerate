@@ -187,6 +187,11 @@ h6 {
 
 /* 404 Page */
 
+.page_not_found {
+  font-family: "OpenSans";
+  color: white;
+}
+
 .page_not_found_wrap {
   margin-top: 0;
   padding: 5% 25%;
