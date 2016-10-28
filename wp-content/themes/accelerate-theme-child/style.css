@@ -190,6 +190,7 @@ h6 {
 .page_not_found h1 {
   font-family: "OpenSans";
   color: white;
+  font-size: 98px;
 }
 
 .page_not_found_wrap {
