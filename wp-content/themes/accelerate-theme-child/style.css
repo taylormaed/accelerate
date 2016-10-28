@@ -191,7 +191,7 @@ h6 {
 
 .page_not_found_wrap {
   margin-top: 0;
-  padding: 5% 25%;
+  padding: 5% 10%;
   background: url("img/404-cat.png") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
   height: 770px;
   font-family: "OpenSans";
