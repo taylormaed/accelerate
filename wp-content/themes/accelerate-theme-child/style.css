@@ -213,3 +213,7 @@ h6 {
 .page_not_found_wrap a:link {
   text-decoration: underline;
 }
+
+.page_not_found_wrap h3:before {
+  content:"\u+21D2 ISOtech";
+}
