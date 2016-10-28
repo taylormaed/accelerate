@@ -187,18 +187,14 @@ h6 {
 
 /* 404 Page */
 
-.page_not_found h1 {
-  font-family: "OpenSans";
-  color: white;
-  font-size: 98px;
-}
+
 
 .page_not_found_wrap {
   margin-top: 0;
   padding: 5% 25%;
   background: url("img/404-cat.png") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
   height: 770px;
-  text-align: left;
+  text-align: center;
   font-family: "OpenSans";
   font-size: 36px;
   color: white;
