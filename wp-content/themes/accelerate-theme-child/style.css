@@ -201,12 +201,15 @@ h6 {
  
 .page_not_found_wrap a:visited {
   color: white;
+
 }
+
 
 .page_not_found_wrap a:active {
   color: white;
+  
 }
 
-.page_not_found_wrap a:hover {
-  color: white;
+.page_not_found_wrap a:link {
+  text-decoration: underline;
 }
