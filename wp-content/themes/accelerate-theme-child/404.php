@@ -15,7 +15,7 @@ get_header(); ?>
 			<div class="page_not_found_wrap">
 			<h2>Hey! You seem to be lost.</h2>
 			<h3>This way to go back <a href="<?php echo home_url(); ?>">home</a>. :)</h3>
-			<h4>Or <a href="http://localhost:8888/accelerate/contact_us/">contact us</a>!
+			<h4>Or <a href="http://taylormae.wpengine.com/contact_us/">contact us</a>!
 
 			</div>
 			</section>
