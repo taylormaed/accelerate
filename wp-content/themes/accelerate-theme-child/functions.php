@@ -58,3 +58,14 @@ function create_custom_post_types() {
   }
 
 add_action( 'init', 'create_custom_post_types' );
+
+function accelerate_theme_child_widget_init() {
+    register_sidebar( array(
+        'name' =>__( 'Homepage sidebar, accelerate-theme-child'),
+        'id' => 'sidebar-2',
+        'description' => __( 'Appears on the static front page template', 'accelerate-theme-child'),
+        )
+}
+
+add_action ( 'widgets_init',
+    'accelerate_theme_child_widget_init');
