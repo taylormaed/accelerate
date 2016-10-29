@@ -79,9 +79,9 @@ class acf_field_functions
 		}
 		elseif( strpos($post_id, 'user_') !== false )
 		{
-			$post_id = str_replace('user_', '', $post_id);
+			$user_id = str_replace('user_', '', $post_id);
 			
-			$v = get_user_meta( $post_id, $field['name'], false );
+			$v = get_user_meta( $user_id, $field['name'], false );
 			
 			// value is an array
 			if( isset($v[0]) )
@@ -571,6 +571,20 @@ class acf_field_functions
 		
 	}
 	
+	function accelerate_theme_child_widget_init() {
+	register_sidebar( array(
+		'name' =>__( 'Homepage sidebar, accelerate-theme-child'),
+		'id' => 'sidebar-2',
+		'description' => __( 'Appears on the static front page template', 'accelerate-theme-child'),
+		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+		'after_widget' => '</aside>',
+		'before_title' => '<h3 class="widget_title">',
+		'after_title' => '</h3>',
+		) );
+}
+
+add_action( 'widgets_init',
+	'accelerate_theme_child_widget_init' );
 	
 	/*
 	*  create_field_options
@@ -595,4 +609,6 @@ class acf_field_functions
 
 new acf_field_functions();
 
+
 ?>
+
