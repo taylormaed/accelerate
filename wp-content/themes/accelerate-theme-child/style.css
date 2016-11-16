@@ -75,6 +75,11 @@ h4 {
   font-weight: bold;
   color: #45ac9d;
   text-transform: uppercase;
+
+}
+
+.widget-area {
+  float: right;
 }
 
 /* Case Studies */
