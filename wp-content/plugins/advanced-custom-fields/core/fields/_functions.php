@@ -570,7 +570,7 @@ class acf_field_functions
 		}
 		
 	}
-
+	
 	
 	/*
 	*  create_field_options
@@ -595,6 +595,4 @@ class acf_field_functions
 
 new acf_field_functions();
 
-
 ?>
-
