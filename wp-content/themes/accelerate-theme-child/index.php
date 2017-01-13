@@ -36,7 +36,7 @@ get_header(); ?>
 						<div class="entry-summary">
 							<?php the_excerpt(); ?>
 						</div>
-						<?php if ( is_home() ) { echo do_shortcode('DISPLAY_ULTIMATE_PLUS'); } ?>
+						<?php if ( is_home() ) { echo do_shortcode('[DISPLAY_ULTIMATE_PLUS]'); } ?>
 						<footer class="entry-footer">
 							<div class="entry-meta">
 								<span class="entry-terms author">Written by <a href=""><?php the_author(); ?></a></span>
